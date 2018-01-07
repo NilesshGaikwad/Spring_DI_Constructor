@@ -8,10 +8,11 @@
 
      <bean id="t" class="nil_beans.User">
      
-     <constructor-arg  value="nilesh"/>
-     <constructor-arg  value="s"/>
-     <constructor-arg  value="25"/>
-     <constructor-arg  value="nil_default@gmail.com"/>
+     <constructor-arg  value="nilesh" index="0"/>
+     <constructor-arg  value="s" index="1"/>
+     <constructor-arg  value="nil_default@gmail.com" index="3"/>
+     <constructor-arg  value="25" index="2"/>
+     
      
      
      </bean>
